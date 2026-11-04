@@ -147,7 +147,9 @@ object Dialogs {
         val buttons = LinearLayout(context).apply { gravity = Gravity.END }
         buttons.addView(context.textButton(context.getString(R.string.adb_copy)) {
             val clipboard = context.getSystemService(ClipboardManager::class.java)
-            clipboard.primaryClip = ClipData.newPlainText("adb", command)
+            clipboard.setPrimaryClip(
+                ClipData.newPlainText("adb", command)
+            )
             Toast.makeText(context, R.string.adb_copied, Toast.LENGTH_SHORT).show()
         })
         buttons.addView(
