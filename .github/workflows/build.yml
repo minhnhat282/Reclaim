@@ -1,12 +1,8 @@
 
-name: Reclaim Android Build
+name: Reclaim Android Release Build
 
 on:
   push:
-    branches:
-      - main
-
-  pull_request:
     branches:
       - main
 
@@ -16,12 +12,12 @@ permissions:
   contents: read
 
 concurrency:
-  group: android-build-${{ github.ref }}
+  group: android-release-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
   build:
-    name: Build and Test APK
+    name: Build Release APK
     runs-on: ubuntu-latest
 
     steps:
@@ -42,19 +38,18 @@ jobs:
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v4
 
-      - name: Verify Gradle
-        run: ./gradlew --version
-
       - name: Run Unit Tests
         run: ./gradlew testDebugUnitTest
 
-      - name: Build Debug APK
-        run: ./gradlew assembleDebug
+      - name: Build Release APK
+        run: ./gradlew assembleRelease
 
-      - name: Upload APK
+      - name: Upload Release APK and Mapping
         uses: actions/upload-artifact@v4
         with:
-          name: Reclaim-debug-${{ github.sha }}
-          path: app/build/outputs/apk/debug/*.apk
+          name: Reclaim-release-${{ github.sha }}
+          path: |
+            app/build/outputs/apk/release/*.apk
+            app/build/outputs/mapping/release/mapping.txt
           if-no-files-found: error
           retention-days: 30
