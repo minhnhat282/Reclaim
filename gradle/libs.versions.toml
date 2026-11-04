@@ -1,0 +1,6 @@
+[versions]
+# Sửa cho khớp phiên bản AGP bạn đang dùng (giống dự án MNLocker)
+agp = "9.4.0"
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }

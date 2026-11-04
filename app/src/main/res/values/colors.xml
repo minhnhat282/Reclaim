@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#E8F5E9</color>
+
+    <color name="green_primary">#2FA84F</color>
+    <color name="green_container">#DDF3E1</color>
+    <color name="on_green">#FFFFFF</color>
+    <color name="bg">#F4F7F2</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="text_primary">#1B2B1E</color>
+    <color name="text_secondary">#5F6F63</color>
+    <color name="outline">#D5DDD6</color>
+    <color name="ripple">#222FA84F</color>
+    <color name="warning">#9A5B00</color>
+    <color name="warning_container">#FFF1DC</color>
+    <color name="error">#B3261E</color>
+    <color name="switch_track_off">#C9D1CA</color>
+    <color name="switch_thumb_off">#8A978D</color>
+    <color name="switch_thumb_on">#FFFFFF</color>
+
+    <color name="overlay_bg">#F4F7F2</color>
+    <color name="overlay_text">#37474F</color>
+
+    <bool name="light_bars">true</bool>
+</resources>

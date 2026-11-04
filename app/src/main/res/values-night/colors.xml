@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green_primary">#4CD070</color>
+    <color name="green_container">#1B3D25</color>
+    <color name="on_green">#06210F</color>
+    <color name="bg">#0F1410</color>
+    <color name="surface">#181E19</color>
+    <color name="text_primary">#E4EAE5</color>
+    <color name="text_secondary">#98A59B</color>
+    <color name="outline">#2C362E</color>
+    <color name="ripple">#224CD070</color>
+    <color name="warning">#FFB74D</color>
+    <color name="warning_container">#3A2A10</color>
+    <color name="error">#F2B8B5</color>
+    <color name="switch_track_off">#3A453C</color>
+    <color name="switch_thumb_off">#8A978D</color>
+    <color name="switch_thumb_on">#FFFFFF</color>
+
+    <color name="overlay_bg">#0E120F</color>
+    <color name="overlay_text">#C9D3CB</color>
+
+    <bool name="light_bars">false</bool>
+</resources>

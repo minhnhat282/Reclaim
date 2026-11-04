@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Reclaim</string>
+    <string name="a11y_description">Reclaim dùng dịch vụ này để phát hiện ứng dụng đang mở và hiện màn hình khóa ngay lập tức, cũng như chặn phím âm lượng trong giờ hạn chế đa phương tiện. Reclaim không lưu nội dung màn hình của bạn. Khi bật \"Chống tắt hoặc gỡ Reclaim\", dịch vụ chỉ quét chữ trên các màn hình Cài đặt hệ thống để nhận ra tên Reclaim.</string>
+
+    <!-- Overlay -->
+    <string name="overlay_locked">Ứng dụng này đang bị khóa</string>
+
+    <!-- Thông báo -->
+    <string name="channel_guard">Trạng thái Reclaim</string>
+    <string name="notif_normal_title">Reclaim đang hoạt động</string>
+    <string name="notif_normal_text">Đang giữ các giới hạn bạn đã đặt.</string>
+    <string name="notif_fallback_title">Chế độ dự phòng</string>
+    <string name="notif_fallback_text">Trợ năng đang tắt nên khóa ứng dụng chạy chậm hơn. Hãy bật lại Trợ năng.</string>
+    <string name="notif_noperm_title">Chưa thể khóa ứng dụng</string>
+    <string name="notif_noperm_text">Trợ năng đang tắt và thiếu quyền dự phòng. Mở Reclaim để thiết lập.</string>
+
+    <!-- Điều hướng -->
+    <string name="nav_apps">Ứng dụng</string>
+    <string name="nav_media">Đa phương tiện</string>
+    <string name="nav_settings">Cài đặt</string>
+
+    <!-- Chung -->
+    <string name="action_cancel">Hủy</string>
+    <string name="action_save">Lưu</string>
+    <string name="action_enable">Bật</string>
+    <string name="banner_action_setup">Thiết lập</string>
+
+    <!-- Hạn chế ứng dụng -->
+    <string name="apps_title">Hạn chế ứng dụng</string>
+    <string name="apps_subtitle">Bật công tắc để khóa. Chạm biểu tượng đồng hồ để hẹn giờ mở khóa.</string>
+    <string name="apps_search_hint">Tìm ứng dụng</string>
+    <string name="apps_loading">Đang tải danh sách…</string>
+    <string name="apps_empty">Không tìm thấy ứng dụng</string>
+    <string name="app_status_always">Khóa 24/7</string>
+    <string name="app_status_scheduled">Khóa · mở theo lịch (%1$d ngày)</string>
+    <string name="app_timer_desc">Hẹn giờ mở khóa</string>
+    <string name="banner_a11y_off">Chưa bật Trợ năng. Khóa ứng dụng đang chạy ở chế độ dự phòng, chậm hơn.</string>
+
+    <!-- Lịch -->
+    <string name="sheet_title">Hẹn giờ mở khóa</string>
+    <string name="sheet_desc">Ứng dụng chỉ mở được trong các khung giờ bạn chọn. Ngoài khung giờ, hoặc vào ngày không được tích, ứng dụng bị khóa.</string>
+    <string name="sheet_copy_monday">Dùng giờ của Thứ Hai cho cả tuần</string>
+    <string name="pick_start">Giờ bắt đầu</string>
+    <string name="pick_end">Giờ kết thúc</string>
+    <string-array name="day_names">
+        <item>Thứ Hai</item>
+        <item>Thứ Ba</item>
+        <item>Thứ Tư</item>
+        <item>Thứ Năm</item>
+        <item>Thứ Sáu</item>
+        <item>Thứ Bảy</item>
+        <item>Chủ Nhật</item>
+    </string-array>
+
+    <!-- Hạn chế đa phương tiện -->
+    <string name="media_title">Hạn chế đa phương tiện</string>
+    <string name="media_subtitle">Ngoài khung giờ mở khóa, Reclaim dừng trình phát và đưa âm lượng đa phương tiện về 0.</string>
+    <string name="media_enable">Bật hạn chế đa phương tiện</string>
+    <string name="media_enable_desc">Áp dụng cho video, nhạc và trình duyệt, cả loa lẫn tai nghe.</string>
+    <string name="media_schedule_title">Lịch mở khóa</string>
+    <string name="media_schedule_desc">Chỉ được phát đa phương tiện trong các khung giờ dưới đây. Không tích ngày nào nghĩa là hạn chế cả ngày.</string>
+    <string name="media_status_off">Hạn chế đa phương tiện đang tắt</string>
+    <string name="media_status_restricted">Đang hạn chế</string>
+    <string name="media_status_allowed">Đang được phép</string>
+    <string name="media_until_unlock">Được phát lại lúc %1$s</string>
+    <string name="media_until_restrict">Bắt đầu hạn chế lúc %1$s</string>
+    <string name="media_always_restricted">Chưa có khung giờ mở khóa nào: hạn chế liên tục.</string>
+    <string name="media_never_restricted">Mọi ngày đều mở khóa cả ngày: không có giờ hạn chế.</string>
+    <string name="media_grayscale">Bật thang độ xám</string>
+    <string name="media_grayscale_desc">Chuyển màn hình sang đen trắng trong giờ hạn chế. Không tích ngày nào thì đen trắng cả ngày.</string>
+    <string name="media_gray_active">Màn hình đang ở thang độ xám.</string>
+    <string name="banner_secure_off">Chưa cấp quyền ghi cài đặt bảo mật nên chưa thể bật thang độ xám.</string>
+    <string name="banner_listener_off">Chưa cấp quyền Truy cập thông báo: Reclaim chưa thể dừng trình phát, chỉ kéo được âm lượng về 0.</string>
+
+    <!-- Cài đặt -->
+    <string name="settings_title">Cài đặt</string>
+    <string name="settings_subtitle">Quyền cần thiết, tùy chọn và bảo mật.</string>
+    <string name="settings_permissions">QUYỀN &amp; TRẠNG THÁI</string>
+    <string name="settings_options">TÙY CHỌN</string>
+    <string name="settings_security">BẢO MẬT</string>
+    <string name="settings_about">GIỚI THIỆU</string>
+    <string name="need_required">Bắt buộc</string>
+    <string name="need_recommended">Khuyến nghị</string>
+    <string name="restricted_hint">Android 13 trở lên: nếu công tắc bị mờ, mở Thông tin ứng dụng → ⋮ → Cho phép cài đặt bị hạn chế, rồi quay lại bật.</string>
+    <string name="open_app_info">Mở</string>
+
+    <string name="perm_accessibility_title">Trợ năng</string>
+    <string name="perm_accessibility_desc">Phát hiện ứng dụng đang mở để hiện màn hình khóa ngay lập tức.</string>
+    <string name="perm_listener_title">Truy cập thông báo</string>
+    <string name="perm_listener_desc">Cho phép Reclaim dừng các trình phát đang chạy.</string>
+    <string name="perm_post_title">Thông báo</string>
+    <string name="perm_post_desc">Hiện trạng thái Reclaim đang hoạt động.</string>
+    <string name="perm_usage_title">Quyền xem mức sử dụng</string>
+    <string name="perm_usage_desc">Chế độ dự phòng: biết ứng dụng nào đang mở khi Trợ năng tắt.</string>
+    <string name="perm_overlay_title">Hiển thị trên ứng dụng khác</string>
+    <string name="perm_overlay_desc">Chế độ dự phòng: hiện màn hình khóa khi Trợ năng tắt.</string>
+    <string name="perm_battery_title">Bỏ tối ưu hóa pin</string>
+    <string name="perm_battery_desc">Giúp hệ thống không dừng Reclaim khi chạy nền.</string>
+    <string name="perm_alarm_title">Báo thức chính xác</string>
+    <string name="perm_alarm_desc">Dừng đa phương tiện đúng giờ.</string>
+    <string name="perm_secure_title">Ghi cài đặt bảo mật</string>
+    <string name="perm_secure_desc">Chỉ cần cho thang độ xám. Cấp một lần bằng ADB từ máy tính.</string>
+    <string name="perm_admin_title">Quản trị thiết bị</string>
+    <string name="perm_admin_desc">Chặn gỡ cài đặt Reclaim khi quyền này còn bật.</string>
+    <string name="admin_explanation">Reclaim dùng quyền này để ngăn việc gỡ cài đặt khi bạn đang cố tự kiềm chế.</string>
+
+    <string name="opt_block_keys">Chặn phím âm lượng trong giờ hạn chế</string>
+    <string name="opt_block_keys_desc">Không cho chỉnh âm lượng bằng phím cứng (cần Trợ năng); phím sẽ bị chặn cho cả âm lượng chuông và báo thức, bạn vẫn chỉnh được trong Cài đặt hệ thống. Cuộc gọi không bị ảnh hưởng.</string>
+    <string name="opt_restore_volume">Khôi phục âm lượng khi hết giờ hạn chế</string>
+    <string name="opt_restore_desc">Đưa âm lượng về mức trước khi hạn chế. Mặc định giữ nguyên ở 0.</string>
+    <string name="opt_tamper">Chống tắt hoặc gỡ Reclaim</string>
+    <string name="opt_tamper_desc">Che các màn hình Cài đặt hệ thống có nhắc đến Reclaim (tắt Trợ năng, gỡ cài đặt…). Nên đặt mã PIN, nếu không bạn có thể tự tạm dừng bảo vệ.</string>
+    <string name="opt_tamper_pause">Tạm dừng bảo vệ 5 phút</string>
+    <string name="toast_tamper_paused">Đã tạm dừng bảo vệ 5 phút</string>
+
+    <string name="pin_title">Mã PIN</string>
+    <string name="pin_desc_off">Chưa đặt. Nếu đặt, Reclaim sẽ hỏi PIN mỗi khi mở.</string>
+    <string name="pin_desc_on">Đang bật. Reclaim hỏi PIN mỗi khi mở.</string>
+    <string name="pin_set">Đặt mã PIN</string>
+    <string name="pin_manage">Quản lý</string>
+    <string name="pin_change">Đổi mã PIN</string>
+    <string name="pin_remove">Xóa mã PIN</string>
+    <string name="pin_new">Mã PIN mới (4–8 số)</string>
+    <string name="pin_confirm">Nhập lại mã PIN mới</string>
+    <string name="pin_current">Mã PIN hiện tại</string>
+    <string name="pin_err_length">Mã PIN gồm 4–8 chữ số</string>
+    <string name="pin_err_mismatch">Hai mã PIN không khớp</string>
+    <string name="pin_err_wrong">Mã PIN không đúng</string>
+    <string name="pin_err_locked" tools:ignore="PluralsCandidate">Nhập sai nhiều lần. Thử lại sau %1$d giây.</string>
+    <string name="gate_title">Nhập mã PIN</string>
+    <string name="gate_hint">Mã PIN</string>
+    <string name="gate_unlock">Mở</string>
+
+    <string name="adb_title">Cấp quyền bằng ADB</string>
+    <string name="adb_steps">1. Bật Tùy chọn nhà phát triển: Cài đặt → Thông tin điện thoại, chạm 7 lần vào Số bản dựng.\n2. Trong Tùy chọn nhà phát triển, bật Gỡ lỗi USB (Xiaomi/Oppo: bật thêm Gỡ lỗi USB (Cài đặt bảo mật)).\n3. Cắm điện thoại vào máy tính và chạy lệnh dưới đây, rồi quay lại Reclaim. Quyền được giữ sau khi khởi động lại máy, nhưng mất khi gỡ cài đặt.</string>
+    <string name="adb_note">Nếu màn hình kẹt đen trắng (ví dụ sau khi gỡ Reclaim), tắt tại Cài đặt → Trợ năng → Chỉnh màu.</string>
+    <string name="adb_copy">Sao chép lệnh</string>
+    <string name="adb_copied">Đã sao chép lệnh</string>
+    <string name="adb_close">Đóng</string>
+
+    <string name="about_version">Phiên bản %1$s</string>
+</resources>
